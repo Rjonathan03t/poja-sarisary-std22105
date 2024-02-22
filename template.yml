@@ -97,7 +97,7 @@ Resources:
     Properties:
       Name: !Join [ '', [ /poja-sarisary-std22105/, !Ref Env, /api/url ] ]
       Type: String
-      Value: !Sub "https://${FrontalServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/Prod"
+      Value: !Sub "https://${FrontalServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/Preprod"
 
 Outputs:
   ApiUrl:
